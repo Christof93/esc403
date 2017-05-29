@@ -1,0 +1,4 @@
+SELECT EXTRACT(YEAR from date) as year,count(*) FROM traffic.measurements GROUP BY year;
+SELECT p.descr,count(*) FROM traffic.measurements as m JOIN traffic.places as p ON (m.place=p.place_id) GROUP BY p.descr;
+SELECT p.descr,count(*),string_agg(DISTINCT Extract(Year from m.date)::character varying,',') FROM traffic.measurements as m JOIN traffic.places as p ON (m.place=p.place_id) GROUP BY p.descr;
+Time: 183737.242 ms

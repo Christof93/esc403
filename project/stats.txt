@@ -1,0 +1,79 @@
+              descr                | count  |                 array_agg                 
+------------------------------------+--------+-------------------------------------------
+ Altstetterstrasse Ost              | 209892 | {2013,2014,2015,2016}
+ Altstetterstrasse West             | 210072 | {2013,2014,2015,2016}
+ Andreasstrasse                     | 211630 | {2010,2011,2012,2013,2014,2015,2016}
+ Arboretum                          |  32401 | {2015,2016}
+ Bertastrasse                       | 225147 | {2010,2011,2012,2013,2014,2015,2016}
+ Binzmühlestrasse                   | 210631 | {2010,2011,2012,2013,2014,2015,2016}
+ Bucheggplatz                       |  87918 | {2014,2015,2016}
+ Cassiopeiasteg                     | 214604 | {2013,2014,2015,2016}
+ Chorherrenweg                      | 192138 | {2014,2015,2016}
+ Fischerweg                         | 181372 | {2010,2011,2012,2013,2014,2015,2016}
+ Hardbrücke Ost (Seite HB)          |  17028 | {2016}
+ Hardbrücke West (Seite Altstetten) |  17028 | {2016}
+ Hardeggsteg                        | 288207 | {2014,2015,2016}
+ Hofwiesenstrasse                   | 216621 | {2010,2011,2012,2013,2014,2015,2016}
+ In Gassen                          | 112426 | {2013,2014,2015,2016}
+ Katzenbach                         | 206718 | {2013,2014,2015,2016}
+ Kloster-Fahr-Weg                   | 228154 | {2010,2011,2012,2013,2014,2015,2016}
+ Langstrasse (Unterführung Nord)    | 123056 | {2013,2014,2015,2016}
+ Langstrasse (Unterführung Ost)     |  61624 | {2015,2016}
+ Langstrasse (Unterführung Süd)     |  23712 | {2016}
+ Langstrasse (Unterführung West)    |  61720 | {2015,2016}
+ Letten / Dynamo                    | 244602 | {2014,2015,2016}
+ Lettenviadukt (Limmatstr.)         | 163068 | {2014,2015,2016}
+ Limmatquai                         | 114172 | {2013,2014,2015,2016}
+ Limmatquai  Ri. Bellevue           |  87516 | {2014,2015,2016}
+ Limmatquai  Ri. Central            |  87301 | {2014,2015,2016}
+ Lux-Guyer-Weg                      | 247451 | {2009,2010,2011,2012,2013,2014,2015,2016}
+ Militärbrücke                      | 218727 | {2013,2014,2015,2016}
+ Mühlebachstrasse                   | 217214 | {2010,2011,2012,2013,2014,2015,2016}
+ Mythenquai                         | 220090 | {2010,2011,2012,2013,2014,2015,2016}
+ Mythenquai Unterführung            | 321906 | {2013,2014,2015,2016}
+ Ohmstrasse Ost                     | 130578 | {2013,2014,2015,2016}
+ Ohmstrasse West                    | 198613 | {2013,2014,2015,2016}
+ Quaibrücke Nord (Limmatseite)      |  70547 | {2013,2014,2015}
+ Quaibrücke Süd (Seeseite)          |  83444 | {2013,2014,2015,2016}
+ Saumackerstrasse                   |  96900 | {2014,2015,2016}
+ Scheuchzerstrasse                  | 219706 | {2010,2011,2012,2013,2014,2015,2016}
+
+               descr                | count  |               string_agg                
+------------------------------------+--------+-----------------------------------------
+ Altstetterstrasse Ost              | 209892 | 2013,2014,2015,2016
+ Altstetterstrasse West             | 210072 | 2013,2014,2015,2016
+ Andreasstrasse                     | 211630 | 2010,2011,2012,2013,2014,2015,2016
+ Arboretum                          |  32401 | 2015,2016
+ Bertastrasse                       | 225147 | 2010,2011,2012,2013,2014,2015,2016
+ Binzmühlestrasse                   | 210631 | 2010,2011,2012,2013,2014,2015,2016
+ Bucheggplatz                       |  87918 | 2014,2015,2016
+ Cassiopeiasteg                     | 214604 | 2013,2014,2015,2016
+ Chorherrenweg                      | 192138 | 2014,2015,2016
+ Fischerweg                         | 181372 | 2010,2011,2012,2013,2014,2015,2016
+ Hardbrücke Ost (Seite HB)          |  17028 | 2016
+ Hardbrücke West (Seite Altstetten) |  17028 | 2016
+ Hardeggsteg                        | 288207 | 2014,2015,2016
+ Hofwiesenstrasse                   | 216621 | 2010,2011,2012,2013,2014,2015,2016
+ In Gassen                          | 112426 | 2013,2014,2015,2016
+ Katzenbach                         | 206718 | 2013,2014,2015,2016
+ Kloster-Fahr-Weg                   | 228154 | 2010,2011,2012,2013,2014,2015,2016
+ Langstrasse (Unterführung Nord)    | 123056 | 2013,2014,2015,2016
+ Langstrasse (Unterführung Ost)     |  61624 | 2015,2016
+ Langstrasse (Unterführung Süd)     |  23712 | 2016
+ Langstrasse (Unterführung West)    |  61720 | 2015,2016
+ Letten / Dynamo                    | 244602 | 2014,2015,2016
+ Lettenviadukt (Limmatstr.)         | 163068 | 2014,2015,2016
+ Limmatquai                         | 114172 | 2013,2014,2015,2016
+ Limmatquai  Ri. Bellevue           |  87516 | 2014,2015,2016
+ Limmatquai  Ri. Central            |  87301 | 2014,2015,2016
+ Lux-Guyer-Weg                      | 247451 | 2009,2010,2011,2012,2013,2014,2015,2016
+ Militärbrücke                      | 218727 | 2013,2014,2015,2016
+ Mühlebachstrasse                   | 217214 | 2010,2011,2012,2013,2014,2015,2016
+ Mythenquai                         | 220090 | 2010,2011,2012,2013,2014,2015,2016
+ Mythenquai Unterführung            | 321906 | 2013,2014,2015,2016
+ Ohmstrasse Ost                     | 130578 | 2013,2014,2015,2016
+ Ohmstrasse West                    | 198613 | 2013,2014,2015,2016
+ Quaibrücke Nord (Limmatseite)      |  70547 | 2013,2014,2015
+ Quaibrücke Süd (Seeseite)          |  83444 | 2013,2014,2015,2016
+ Saumackerstrasse                   |  96900 | 2014,2015,2016
+ Scheuchzerstrasse                  | 219706 | 2010,2011,2012,2013,2014,2015,2016
